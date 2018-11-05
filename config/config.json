@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPane/PropertyPaneWebPart.js",
+          "manifest": "./src/webparts/propertyPane/PropertyPaneWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "PropertyPaneWebPartStrings": "lib/webparts/propertyPane/loc/{locale}.js"
   }
 }
